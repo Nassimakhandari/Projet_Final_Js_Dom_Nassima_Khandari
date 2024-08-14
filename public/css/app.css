@@ -12267,4 +12267,33 @@ header nav .navbar button:hover {
   font-size: 47px;
 }
 
+.info {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 1vw;
+  color: white;
+  padding: 2vh 6vw;
+}
+.info .contact-child {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  padding-left: 5px;
+}
+.info .contact-child i {
+  color: red;
+  border-radius: 50px;
+  font-size: 25px;
+  padding: 1vh 0.8vw;
+}
+.info p {
+  text-align: start;
+  padding-inline: 4.8vw;
+  font-size: 14px;
+}
+.info h4, .info .h4 {
+  text-align: start;
+  font-size: 17px;
+}
+
 /*# sourceMappingURL=app.css.map */

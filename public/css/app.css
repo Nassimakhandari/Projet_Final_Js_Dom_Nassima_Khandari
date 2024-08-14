@@ -11845,5 +11845,152 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 2vh 5vw;
+  z-index: 22222222;
+}
+header nav h3, header nav .h3 {
+  padding-top: 2vh;
+  font-weight: bold;
+  color: #37373f;
+}
+header nav h3 span, header nav .h3 span {
+  color: red;
+}
+header nav .navbar {
+  display: flex;
+  align-items: center;
+  gap: 8vw;
+}
+header nav .navbar .links {
+  display: flex;
+  gap: 1.8vw;
+}
+header nav .navbar select {
+  border: none;
+  background-color: transparent;
+  color: gray;
+  font-weight: 500;
+}
+header nav .navbar select:hover {
+  color: #37373f;
+  border-bottom: solid 3px red;
+  padding: 3px 0;
+}
+header nav .navbar a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+}
+header nav .navbar a:hover {
+  color: #2a2a30;
+  border-bottom: solid 3px red;
+  padding: 3px 0;
+}
+header nav .navbar button {
+  background-color: #c32525;
+  border: none;
+  padding: 0.8vh 1.8vw;
+  border-radius: 20px;
+  color: white;
+}
+header nav .navbar button:hover {
+  background-color: #d33d3d;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 18vh 0;
+}
+.home .title {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.home h1, .home .h1 {
+  font-family: amatic;
+  font-weight: 600;
+  font-size: 65px;
+  color: #404040;
+}
+.home .p {
+  font-weight: 800px;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+.home img {
+  width: 500px;
+}
+.home button {
+  background-color: #c32525;
+  border: none;
+  padding: 1.2vh 1.8vw;
+  border-radius: 20px;
+  color: white;
+}
+.home button:hover {
+  background-color: #d33d3d;
+}
+.home a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.home a:hover {
+  color: red;
+}
+.home .child {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.4vw;
+}
+.home .watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 30%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  background-color: #626461;
+  color: white;
+  gap: 2vh;
+  z-index: 1000;
+}
+
+.modal-content {
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.carousel {
+  display: none;
+}
+
+@font-face {
+  font-family: "amatic";
+  src: url(../../public/fonts/Amatic_SC/AmaticSC-Regular.ttf);
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -11851,6 +11851,7 @@ header nav {
   justify-content: space-around;
   position: fixed;
   background-color: white;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   width: 100%;
   padding: 2vh 5vw;
   z-index: 22222222;
@@ -12092,6 +12093,10 @@ header nav .navbar button:hover {
   padding: 1vh 3vw;
   color: white;
 }
+.duxieme .first-card button:hover {
+  color: #d53939;
+  background-color: white;
+}
 .duxieme .second-card {
   background-color: white;
   display: flex;
@@ -12110,6 +12115,10 @@ header nav .navbar button:hover {
   border-radius: 50%;
   font-size: 27px;
   font-weight: bold;
+}
+.duxieme .second-card i:hover {
+  background-color: #ce1212;
+  color: white;
 }
 .duxieme .second-card h3, .duxieme .second-card .h3 {
   font-size: 19px;
@@ -12161,6 +12170,42 @@ header nav .navbar button:hover {
 .child-3 div h1, .child-3 div .h1 {
   font-size: 45px;
   font-weight: bold;
+}
+
+.menu {
+  padding: 8vh 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8vh;
+}
+.menu .title h1, .menu .title .h1 {
+  color: #2a2a31;
+  font-family: amatic;
+  text-align: center;
+  font-size: 47px;
+}
+.menu span {
+  color: #c32525;
+  font-family: amatic;
+}
+.menu h4, .menu .h4 {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+}
+.menu p {
+  color: gray;
+}
+
+.nav-link {
+  color: #3c3c47;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  border-bottom: solid 3px red;
 }
 
 /*# sourceMappingURL=app.css.map */

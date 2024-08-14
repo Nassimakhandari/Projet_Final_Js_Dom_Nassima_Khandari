@@ -11992,5 +11992,175 @@ header nav .navbar button:hover {
   font-family: "amatic";
   src: url(../../public/fonts/Amatic_SC/AmaticSC-Regular.ttf);
 }
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+}
+.about .first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.about .first-child .borders {
+  border: solid 5px #5f5f68;
+  padding: 1vh 5vw;
+  text-align: center;
+}
+.about .title h1, .about .title .h1 {
+  color: #2a2a31;
+  font-family: amatic;
+  text-align: center;
+  font-size: 47px;
+}
+.about .title span {
+  color: #c32525;
+}
+.about h4, .about .h4 {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+}
+
+.about-child {
+  padding: 8vh 0;
+  padding-right: 3vw;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+}
+.about-child span {
+  color: #c32525;
+}
+.about-child .p {
+  font-weight: 800px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.check {
+  display: flex;
+  gap: 10px;
+}
+.check i {
+  color: #c32525;
+  font-size: 20px;
+}
+
+.click {
+  position: absolute;
+  color: red;
+  border: none;
+  background-color: transparent;
+  font-size: 45px;
+  top: 40%;
+  left: 45%;
+}
+
+.container {
+  position: relative;
+}
+
+.duxieme {
+  background-color: #f2f2f2;
+  display: flex;
+  gap: 2vw;
+  width: 100%;
+  padding: 7vh 6vw;
+}
+.duxieme .first-card {
+  background-color: #ce1212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  color: white;
+  width: 29vw;
+  height: 47vh;
+  padding: 2vh 1.5vw;
+}
+.duxieme .first-card h2, .duxieme .first-card .h2 {
+  font-weight: bold;
+}
+.duxieme .first-card button {
+  border: none;
+  background-color: #d84646;
+  border-radius: 15px;
+  padding: 1vh 3vw;
+  color: white;
+}
+.duxieme .second-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+  text-align: center;
+  width: 17vw;
+  padding: 4vh 1vw;
+}
+.duxieme .second-card i {
+  color: #ce1212;
+  background-color: rgba(247, 211, 211, 0.4196078431);
+  padding: 2vh 1.5vw;
+  border-radius: 50%;
+  font-size: 27px;
+  font-weight: bold;
+}
+.duxieme .second-card h3, .duxieme .second-card .h3 {
+  font-size: 19px;
+}
+.duxieme .second-card p {
+  color: gray;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.third {
+  padding: 8vh 5vw;
+  background-image: url(../images/stats-bg.jpg);
+  width: 100%;
+  height: 53vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.third::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 30, 30, 0.621);
+  z-index: 1;
+}
+
+.child-3 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding-top: 13vh;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.child-3 div {
+  text-align: center;
+}
+.child-3 div h4, .child-3 div .h4 {
+  color: #c5c0c0;
+  font-weight: bold;
+}
+.child-3 div h1, .child-3 div .h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=app.css.map */

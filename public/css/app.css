@@ -12269,16 +12269,17 @@ header nav .navbar button:hover {
 
 .info {
   display: flex;
-  justify-content: space-around;
-  padding-left: 1vw;
+  justify-content: center;
   color: white;
-  padding: 2vh 6vw;
+  gap: 2vw;
+  padding-right: 10vw;
+  padding-top: 3vh;
 }
 .info .contact-child {
   display: flex;
   align-items: center;
-  gap: 1vw;
-  padding-left: 5px;
+  gap: 0.5vw;
+  padding-left: 14px;
 }
 .info .contact-child i {
   color: red;
@@ -12293,7 +12294,7 @@ header nav .navbar button:hover {
 }
 .info h4, .info .h4 {
   text-align: start;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=app.css.map */

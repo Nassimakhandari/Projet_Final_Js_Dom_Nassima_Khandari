@@ -9,7 +9,7 @@ loginBtn.addEventListener("click", () => {
     modal.style.display = "none";
 });
 
-// // ! carousel 1 -- watch video
+// ! carousel 1 -- watch video
 // let nextBtns = document.querySelectorAll(".next");
 // let prevBtns = document.querySelectorAll(".prev");
 // let containers = document.querySelectorAll(".carousel");
@@ -87,7 +87,7 @@ loginBtn.addEventListener("click", () => {
 //     carousel.style.display = "flex";
 // });
 
-
+// ! carousel section menu
 let carousel = document.querySelector('.carousel3');
 let slides = document.querySelectorAll('.slide');
 

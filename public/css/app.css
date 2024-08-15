@@ -12236,6 +12236,56 @@ header nav .navbar button:hover {
     height: 100vh;
   }
 }
+.image-gallery {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 8vh 0;
+}
+.image-gallery .gallery-inner {
+  display: flex;
+  gap: 3px;
+  transition: transform 0.5s ease-in-out;
+  position: relative;
+}
+.image-gallery .gallery-inner .gallery-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.image-gallery .gallery-inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 136vw;
+  height: 100%;
+  background-color: rgba(31, 30, 30, 0.621);
+  z-index: 1;
+}
+.image-gallery .gallery-inner .caption {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  max-width: 80%;
+  z-index: 2;
+}
+.image-gallery .gallery-inner .caption h1, .image-gallery .gallery-inner .caption .h1 {
+  border-bottom: solid 3px red;
+  width: 19%;
+  margin: 0;
+}
+.image-gallery .gallery-inner .caption h4, .image-gallery .gallery-inner .caption .h4 {
+  font-family: amatic;
+}
+
+@media (max-width: 428px) {
+  .gallery-item img {
+    width: 200px;
+  }
+}
 .carousel-container {
   position: relative;
   display: flex;
@@ -12401,7 +12451,7 @@ header nav .navbar button:hover {
 .chefs-container {
   display: flex;
   flex-direction: column;
-  gap: 35vh;
+  gap: 22vh;
 }
 .chefs-container .child-1 {
   background-color: #f8f8f8;

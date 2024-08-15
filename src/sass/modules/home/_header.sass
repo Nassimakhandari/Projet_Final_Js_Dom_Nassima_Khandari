@@ -29,16 +29,14 @@ header
                 font-weight: 500
             select:hover
                 color: #37373f
-                border-bottom: solid 3px red
-                padding: 3px 0
+                border-bottom: solid 1.5px red
             a
                 text-decoration: none
                 color: gray
                 font-weight: 500
             a:hover
                 color: #2a2a30
-                border-bottom: solid 3px red
-                padding: 3px 0
+                border-bottom: solid 1.5px red
             button
                 background-color: #c32525
                 border: none
@@ -96,26 +94,101 @@ header
 .bg
     display: none
     position: fixed
-    top: 0
+    box-shadow: 0 2px 3px rgb(0 0 0 / 0.1)
+    font-weight: bold
+    top: 32%
     width: 30%
-    height: 30%
+    height: 40%
     justify-content: center
     align-items: center
-    background-color: #626461
-    color: white
+    border-radius: 15px
+    background-color: white
+    color: black
     gap: 2vh
     z-index: 1000 
 .modal-content 
-    color: white
-    padding: 20px
     border-radius: 8px
     width: 300px
     text-align: center
+.container-modal
+    background-color: rgba(0, 0, 0, 0.34)
+    width: 100%
+    height: 100%
 
-.carousel
-    display: none
 
 
+// .carousel-container 
+//     width: 40vw
+//     height: 60vh
+//     background: #d000ff
+//     position: relative
+//     overflow: hidden
+
+
+// .carousel 
+//     display: flex
+//     transition: transform 0.5s ease
+
+
+
+// .slide 
+//     min-width: 100%
+
+
+// .slide img 
+//     width: 100%
+//     height: 100%
+
+
+// .next , .previous 
+//     padding: 1vh 2vw
+//     border-radius: 20px
+//     position: absolute
+//     top: 50%
+//     transform: translateY(-50%)
+
+
+// .next
+//     right:0px 
+
+// .previous
+//     left:0 
+
+
+// .indicators-grp
+//     width: 100%
+//     padding: 2vh 0
+//     position: absolute
+//     bottom: 10%
+//     display: flex
+//     align-items: center
+//     justify-content: center
+//     gap: 10px
+
+// .indicator
+//     padding: 0.3vh 1vw
+//     background: rgb(0, 0, 0)
+//     border-radius: 10px
+
+// .activeIndicator
+//     background-color: aliceblue
+
+@media (max-width : 428px)
+    .links
+        display: none
+    .home
+        flex-direction: column-reverse
+        gap: 3vh
+        padding: 20px
+        img
+            width: 400px
+            padding-top: 11vh
+        .title
+            h1
+                font-size: 30px
+            .child
+                gap: 5vw
+            
 
 
 @font-face 

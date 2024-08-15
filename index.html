@@ -63,31 +63,11 @@
                         <i class=" bi bi-caret-right-square text-danger fs-4 "></i>
                         <a href="" id="open">Watch Video</a>
                     </div>
-                    <div id="carousel1" class="carousel">
-                        <div>
-                            <div class="slide">
-                                <video controls width="900px" height="600px" src="./public/videos/video.mp4"></video>
-                            </div>
-                            <div class="slide">
-                                <img src="./public/images/menu/menu-item-2.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="./public/images/menu/menu-item-3.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="./public/images/menu/menu-item-4.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="./public/images/menu/menu-item-5.png" alt="">
-                            </div>
-                        </div>
-                        <button carouselBrn="carousel1" class="next"><i class="bi bi-arrow-left-circle"></i></button>
-                        <button carouselBrn="carousel1" class="prev"><i class="bi bi-arrow-right-circle"></i></button>
-                    </div>
+                    
 
                 </div>
             </div>
-            <div>
+            <div class="home-img">
                 <img src="./public/images/hero-img.png" alt="">
             </div>
         </div>
@@ -98,7 +78,6 @@
     <main>
 
         <!-- ~ About -->
-
         <section class="about" id="About">
             <div>
                 <div class="title">
@@ -146,7 +125,7 @@
                         <div id="carousel2" class="container">
                             <img width="500px" height="310px" src="./public/images/about-2.jpg" alt="">
                             <button class="click"><i class="bi bi-caret-right-square-fill"></i></button>
-                            <div class="carousel">
+                            <!-- <div class="carousel">
                                 <div>
                                     <div class="slide">
                                         <video controls width="900px" height="600px"
@@ -169,7 +148,7 @@
                                         class="bi bi-arrow-left-circle"></i></button>
                                 <button carouselBrn="carousel1" class="prev"><i
                                         class="bi bi-arrow-right-circle"></i></button>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -237,267 +216,470 @@
                 </div>
             </div>
         </section>
-
         <!-- ~ Fin About -->
 
 
         <!-- * Menu -->
         <section class="menu" id="Menu">
-            <div class="title">
-                <h4>OUR MENU</h4>
-                <h1>CHECK OUR <span>YUMMY MENU </span></h1>
+            <div class="menu section">
+                <div class="text-center pt-5">
+                    <h4 style="color: gray; font-size: 15px">Our Menu</h4>
+                    <h1 style="color: #404040 ;font-family: amatic ;font-size: 48px">Check Our <span
+                            style="color: #c32525;">Yummy Menu</span></h1>
+                </div>
+
+                <div class="">
+                    <ul class="menu-title d-flex gap-5 justify-content-center pt-5" style="list-style-type: none; ">
+                        <li class="link" style="border-bottom:solid 2px gray;">
+                            <a class="nav-link active" href="#">
+                                <h5 class="hovers">Starters</h5>
+                            </a>
+                        </li>
+                        <li class="link" style="border-bottom:solid 2px gray;">
+                            <a class="nav-link" href="#">
+                                <h5 class="hovers">Breakfast</h5>
+                            </a>
+                        </li>
+                        <li class="link" style="border-bottom:solid 2px gray;">
+                            <a class="nav-link" href="#">
+                                <h5 class="hovers">Lunch</h5>
+                            </a>
+                        </li>
+                        <li class="link" style="border-bottom:solid 2px gray;">
+                            <a class="nav-link" href="#">
+                                <h5 class="hovers">Dinner</h5>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <div class="tab-pane fade show active ">
+                            <div class="text-center ">
+                                <p>Menu</p>
+                                <h1 style="color: #c32525;font-family: amatic; font-weight: bold; font-size: 45px;">
+                                    Starters</h1>
+                            </div>
+                            <div class="child-menu d-flex flex-column justify-content-center align-items-center gap-0">
+                                <div class="child-menu d-flex gaps">
+                                    <div class=" text-center">
+                                        <img src="./public/images/menu/menu-item-2.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Aut Luia</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$14.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-3.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Est Eligendi</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$8.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-1.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                </div>
+                                <div class="child-menu d-flex gaps ">
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-5.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-6.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-4.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade ">
+
+                            <div class="text-center">
+                                <p>Menu</p>
+                                <h1 style="color: #c32525;font-family: amatic; font-weight: bold; font-size: 45px;">
+                                    Breakfast</h1>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <div class="child-menu d-flex gaps">
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-1.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-3.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Est Eligendi</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$8.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-2.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Aut Luia</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$14.95</h4>
+                                    </div>
+                                </div>
+                                <div class="child-menu d-flex gaps">
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-4.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-5.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-6.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade ">
+                            <div class="text-center">
+                                <p>Menu</p>
+                                <h1 style="color: #c32525;font-family: amatic; font-weight: bold; font-size: 45px;">
+                                    Lunch</h1>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <div class="child-menu d-flex gaps">
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-1.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-2.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Aut Luia</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$14.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-3.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Est Eligendi</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$8.95</h4>
+                                    </div>
+                                </div>
+                                <div class="child-menu d-flex gaps">
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-4.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-5.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-6.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade ">
+                            <div class="text-center">
+                                <p>Menu</p>
+                                <h1 style="color: #c32525;font-family: amatic; font-weight: bold; font-size: 45px;">
+                                    Dinner</h1>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <div class="child-menu d-flex gaps">
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-2.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Aut Luia</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$14.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-3.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Est Eligendi</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$8.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-1.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                </div>
+                                <div class="child-menu d-flex gaps">
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-4.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-5.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                    <div class="text-center">
+                                        <img src="./public/images/menu/menu-item-6.png" width="250px" alt="">
+                                        <div class="content-card">
+                                            <h4>Magnam Tiste</h4>
+                                            <p style="color: gray;">Lorem, deren, trataro, filede, nerada</p>
+                                        </div>
+                                        <h4 style="color: #c32525;">$5.95</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="d-flex align-items-center flex-column">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-start-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Starters</button>
-                    </li>
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                        aria-selected="true">BreakFast</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Lunch</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                            aria-selected="false">Dinner</button>
-                    </li>
-                </ul>
 
-                <div>
-                    <h4>MENU</h4>
+            <div class="carousel-container mt-5">
+                <h4 style="color: gray; font-size: 14px;">TESTIMONIALS</h4>
+                <h2>WHAT ARE THEY<span style="color: #c32525;">SAYING ABOUT US</span></h2>
+                <div class="carousel3">
+                    <div class="slide">
+                        <div class="content">
 
-                </div>
-
-
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                        aria-labelledby="pills-home-tab" tabindex="0">
-                        <h1 style="text-align: center;"><span>BreakFast</span></h1>
-                        <div class="d-flex justify-content-evenly breakfast-menu " id="Starter">
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-1.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Magnan Tiste</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$5.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-2.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Aut Luia
-                                </h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$15.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-3.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Est Eligendi</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$8.95</h4>
-                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
+                                perspiciatis fugit sapiente modi dolor labore rerum molestiae.
+                            </p>
+                            <h5>Sara wilsson</h5>
+                            <p>Developer</p>
+                            <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
                         </div>
-
-                        <div class=" d-flex justify-content-evenly" id="Starter">
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-4.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47; ">Eos Luibusdam</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$12.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-5.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Eos Luibusdam</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$12.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-6.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Laboriosam Direva</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$9.95</h4>
-                            </div>
-                        </div>
+                        <img src="./public/images/testimonials copy/testimonials-1.jpg" alt="">
                     </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                        tabindex="0">
-                        <h1 style="text-align: center;"><span>Lunch</span></h1>
+                    <div class="slide">
+                        <div class="content">
 
-                        <div class=" d-flex justify-content-evenly " id="Starter">
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-4.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Eos Luibusdam</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$12.95</h4>
-                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
+                                perspiciatis fugit sapiente modi dolor labore rerum molestiae.
+                            </p>
+                            <h5>Sara wilsson</h5>
+                            <p>Developer</p>
+                            <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
 
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-5.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Eos Luibusdam</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$12.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-6.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Laboriosam Direva</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$9.95</h4>
-                            </div>
                         </div>
-
-                        <div class="d-flex justify-content-evenly breakfast-menu " id="Starter">
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-1.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Magnan Tiste</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$5.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-2.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Aut Luia
-                                </h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$15.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-3.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Est Eligendi</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$8.95</h4>
-                            </div>
-                        </div>
-
+                        <img src="./public/images/testimonials copy/testimonials-2.jpg" alt="">
                     </div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
-                        tabindex="0">
-                        <h1 style="text-align: center;"><span>Dinner</span></h1>
-                        <div class="d-flex justify-content-evenly breakfast-menu " id="Starter">
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-1.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Magnan Tiste</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$5.95</h4>
-                            </div>
+                    <div class="slide">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
+                                perspiciatis fugit sapiente modi dolor labore rerum molestiae.
+                            </p>
+                            <h5>Sara wilsson</h5>
+                            <p>Developer</p>
+                            <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
 
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-2.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Aut Luia
-                                </h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$15.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-3.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Est Eligendi</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$8.95</h4>
-                            </div>
                         </div>
-
-                        <div class=" d-flex justify-content-evenly" id="Starter">
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-4.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Eos Luibusdam</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$12.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-5.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Eos Luibusdam</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$12.95</h4>
-                            </div>
-
-                            <div class="w-100 d-flex align-items-center flex-column">
-                                <img width="60%" src="./public/images/menu/menu-item-6.png" alt="">
-                                <h3 style="font-size: 23px; color: #3f3f47;">Laboriosam Direva</h3>
-                                <p>Lorem, deren, trataro, filede, nerada</p>
-                                <h4 class="text-danger fw-bold fs-4">$9.95</h4>
-                            </div>
-                        </div>
+                        <img src="./public/images/testimonials copy/testimonials-3.jpg" alt="">
                     </div>
+                    <div class="slide">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
+                                perspiciatis fugit sapiente modi dolor labore rerum molestiae.
+                            </p>
+                            <h5>Sara wilsson</h5>
+                            <p>Developer</p>
+                            <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
 
-                </div>
-                <div class="carousel-container mt-5">
-                    <h4>TESTIMONIALS</h4>
-                    <h2>WHAT ARE THEY<span>SAYING ABOUT US</span></h2>
-                    <div class="carousel3">
-                        <div class="slide">
-                            <div class="content">
-
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
-                                    perspiciatis fugit sapiente modi dolor labore rerum molestiae.
-                                </p>
-                                <h5>Sara wilsson</h5>
-                                <p>Developer</p>
-                                <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
-                            </div>
-                            <img src="./public/images/testimonials copy/testimonials-1.jpg" alt="">
                         </div>
-                        <div class="slide">
-                            <div class="content">
-
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
-                                    perspiciatis fugit sapiente modi dolor labore rerum molestiae.
-                                </p>
-                                <h5>Sara wilsson</h5>
-                                <p>Developer</p>
-                                <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
-
-                            </div>
-                            <img src="./public/images/testimonials copy/testimonials-2.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <div class="content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
-                                    perspiciatis fugit sapiente modi dolor labore rerum molestiae.
-                                </p>
-                                <h5>Sara wilsson</h5>
-                                <p>Developer</p>
-                                <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
-
-                            </div>
-                            <img src="./public/images/testimonials copy/testimonials-3.jpg" alt="">
-                        </div>
-                        <div class="slide">
-                            <div class="content">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis id enim
-                                    perspiciatis fugit sapiente modi dolor labore rerum molestiae.
-                                </p>
-                                <h5>Sara wilsson</h5>
-                                <p>Developer</p>
-                                <img width="100px" src="./public/images/stars-removebg-preview.png" alt="">
-
-                            </div>
-                            <img src="./public/images/testimonials copy/testimonials-4.jpg" alt="">
-                        </div>
+                        <img src="./public/images/testimonials copy/testimonials-4.jpg" alt="">
                     </div>
                 </div>
+            </div>
 
         </section>
-
         <!-- * fin Menu -->
 
-        <!-- & Contact -->
 
-        <section id="Contact" class="p-5 d-flex flex-column gap-2">
-            <div>
+        <!-- ! Chefs -->
+        <section class="chefs-container" id="Chefs">
+            <div class="card-group d-flex flex-column justify-content-center align-content-center">
+                <div class="mini-card text-center pt-5">
+                    <h4>CHEFS</h4>
+                    <h1>OUR <span>PROFFESIONEL CHEFS</span></h1>
+                </div>
+                <div class="child-6 d-lg-flex d-grid gap-4 pt-5 justify-content-center w-100 h-100">
+                    <div class="card2 d-flex flex-column  bottom-50 text-secondary shadow ">
+                        <img width="400px" height="400px" src="./public/images/chefs/chefs-1.jpg" alt="...">
+                        <div class=" top-100 w-100 shadow  pt-2 pb-2 ps-2 pe-2">
+                            <h4 style="color: #37373f; font-size: 18px; font-weight: bold;">Walter White</h4>
+                            <p class="paragraph">Master Chef</p>
+                            <p style="color: #5a5a63; font-size: 14px;">Velit aut quia fugit et et. Dolorum ea voluptate
+                                vel tempore <br> tenetur ipsa quae aut.
+                                Ipsum
+                                exercitationem iure minima enim <br> corporis et voluptate.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column text-secondary shadow">
+                        <img width="400px" height="400px" src="./public/images/chefs/chefs-2.jpg" alt="...">
+                        <div class=" top-100 w-100 bg-light shadow pt-2 pb-2 ps-2 pe-2">
+                            <h4 style="color: #37373f; font-size: 18px; font-weight: bold;">Sarah Jhonson</h4>
+                            <p class="paragraph">Patissier</p>
+                            <p style="color: #5a5a63; font-size: 14px;">Quo esse repellendus quia id. Est eum et
+                                accusantium pariatur <br> fugit nihil minima
+                                suscipit corporis. Voluptate sed quas <br> reiciendis animi neque sapiente.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column  text-secondary shadow">
+                        <img width="400px" height="400px" src="./public/images/chefs/chefs-3.jpg" alt="...">
+                        <div class="top-100 w-100 bg-light  shadow pt-2 pb-2 ps-2 pe-2">
+                            <h4 style="color: #37373f; font-size: 18px; font-weight: bold;">William Anderson</h4>
+                            <p class="paragraph">Cook</p>
+                            <p style="color: #5a5a63; font-size: 13px;">Vero omnis enim consequatur. Voluptas
+                                consectetur unde qui <br> molestiae deserunt. Voluptates
+                                enim aut architecto porro <br> aspernatur molestiae modi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="chefs-child">
+                <h4>Book A Table</h4>
+                <h1>Book Your<span> Stay With Us</span></h1>
+
+                <div class=" container border-0 pt-5">
+                    <div class=" d-flex g-0 w-100">
+                        <div class="col-md-4">
+                            <img src="./public/images/reservation.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class=" child-1 col-md-8">
+                            <div class="d-flex align-items-center h-100">
+                                <form action="" class="d-flex flex-column gap-4 mx-4">
+                                    <div class="d-flex w-100 gap-4 ">
+                                        <div class="time">
+                                            <input class="p-2 border border-light-subtle" type="text"
+                                                placeholder="Your name">
+                                        </div>
+                                        <div>
+                                            <input class="p-2 border border-light-subtle" type="email"
+                                                placeholder="Your email">
+                                        </div>
+
+                                        <div class="">
+                                            <input class="p-2  border border-light-subtle" type="number"
+                                                placeholder="Your Phone">
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between w-100 gap-4">
+                                        <div>
+                                            <input class="p-2 pe-5  border border-light-subtle" type="date"
+                                                placeholder="Date">
+                                        </div>
+                                        <div class="">
+                                            <input class="p-2 pe-5  w-100 border border-light-subtle" type="time"
+                                                placeholder="Your email">
+                                        </div>
+
+                                        <div>
+                                            <input class="p-2 border border-light-subtle" type="text"
+                                                placeholder="# of people">
+                                        </div>
+                                    </div>
+                                    <textarea placeholder="Message" class="w-100 p-2 border border-light-subtle "
+                                        name="" id="" cols="25" rows="5"></textarea>
+                                    <div class="d-flex justify-content-center p-2">
+                                        <button>Book a Table</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- ! Fin Chef -->
+
+
+        <!-- & Contact -->
+        <section id="Contact" class="p-5 d-flex flex-column gap-2 mt-5 flex-lg-column">
+            <div class="pt-5">
                 <h5 class="text-center text-secondary fs-5">Contact</h5>
-                <h1 style="font-family: amatic; font-size: 45px;" class="text-center">Need Help? <span class="text-danger">Contact Us</span></h1>
+                <h1 style="font-family: amatic; font-size: 45px;" class="text-center">Need Help? <span
+                        class="text-danger">Contact Us</span></h1>
             </div>
             <br>
             <div class="d-flex align-items-center justify-content-center w-100">
@@ -517,16 +699,17 @@
                         </div>
                         <div>
                             <h4 class="text-secondary fs-5"><b>Address</b></h4>
-                            <p style="font-size: 14px; font-weight: 500;">A108 Adam Street, New York, NY 535022</p>
+                            <p style="font-size: 14px;">A108 Adam Street, New York, NY 535022</p>
                         </div>
                     </div>
                     <div id="contat" class="bg-white p-3  w-75 shadow d-flex align-items-center gap-3 adress">
                         <div>
-                            <i class="bi bi-telephone fs-4 text-white border rounded-circle pt-2 pb-2 ps-3 pe-3 bg-danger"></i>
+                            <i
+                                class="bi bi-telephone fs-4 text-white border rounded-circle pt-2 pb-2 ps-3 pe-3 bg-danger"></i>
                         </div>
                         <div>
                             <h4 class="text-secondary fs-5"> <b>Call Us </b></h4>
-                            <p style="font-size: 14px; font-weight: 500;">+1 5589 55488 55</p>
+                            <p style="font-size: 14px; ">+1 5589 55488 55</p>
                         </div>
                     </div>
 
@@ -540,7 +723,7 @@
                         </div>
                         <div>
                             <h4 class="text-secondary fs-5"> <b>Email Us </b></h4>
-                            <p style="font-size: 14px; font-weight: 500;">info@example.com</p>
+                            <p style="font-size: 14px">info@example.com</p>
                         </div>
                     </div>
 
@@ -567,18 +750,20 @@
                     </div>
 
                     <div class="p-2 contact1">
-                        <textarea class="w-100 p-2 border border-light-subtle" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <textarea class="w-100 p-2 border border-light-subtle" name="" id="" cols="30" rows="10"
+                            placeholder="Message"></textarea>
                     </div>
                     <div class="d-flex justify-content-center p-2">
-                       <button  class="px-4 py-3 border-0 rounded-5 bg-danger text-white">Send A Message</button>
+                        <button class="px-4 py-3 border-0 rounded-5 bg-danger text-white">Send A Message</button>
                     </div>
                 </form>
             </div>
         </section>
-
+        <!-- & Fin Contact -->
     </main>
 
 
+        <!-- * Footer -->
     <footer style="background-color: #1f1f24;">
 
         <div class="info">
@@ -630,7 +815,11 @@
         </div>
 
     </footer>
+        <!-- * Fin Footer -->
 
+    <div class="btn-3">
+        <a href="#"><i class="bi bi-arrow-up text-light"></i></a>
+    </div>
 
     <script src="./public/js/app.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

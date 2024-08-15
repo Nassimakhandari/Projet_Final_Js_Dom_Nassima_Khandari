@@ -1,30 +1,3 @@
-.menu
-    padding: 8vh 6vw
-    display: flex
-    flex-direction: column
-    justify-content: center
-    align-items: center
-    gap: 10vh
-    .title
-        h1
-            color: #2a2a31
-            font-family: amatic
-            text-align: center
-            font-size: 47px
-    span
-        color: #c32525
-        font-family: amatic
-    h4
-        color: gray
-        font-size: 15px
-        text-align: center
-    p
-        color: gray
-.nav-link
-    color: #3c3c47
-    font-weight: bold
-.nav-link:hover
-    border-bottom: solid 3px red
 
 .carousel-container 
     position: relative
@@ -71,3 +44,22 @@
         font-family: amatic
         text-align: center
         font-size: 47px
+.hovers:hover
+    color: #c32525
+.hovers
+    font-size: 18px
+    color: #4c4c4c
+.gaps
+    gap: 10vw
+    padding-top: 4vh
+
+@media (max-width : 428px)
+    .child-menu
+        flex-direction: column
+    .hovers
+        font-size: 14px
+    .slide
+        flex-direction: column
+        img
+            width: 150px
+    

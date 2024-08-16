@@ -12283,11 +12283,22 @@ header nav .navbar button:hover {
 
 @media (max-width: 428px) {
   .gallery-item img {
-    width: 200px;
+    width: 200vw;
+  }
+  .gallery-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200vw;
+    height: 100%;
+    background-color: rgba(31, 30, 30, 0.621);
+    z-index: 1;
   }
 }
 .carousel4 {
   margin-top: 5vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1.5vh;
@@ -12313,7 +12324,7 @@ header nav .navbar button:hover {
 .carousel4 .carousel-inner2 {
   display: flex;
   gap: 1vw;
-  padding-left: 70vw;
+  width: 100vh;
   justify-content: center;
   align-items: center;
   transition: transform 0.5s ease-in-out;
@@ -12344,6 +12355,11 @@ header nav .navbar button:hover {
   cursor: pointer;
 }
 
+@media (max-width: 428px) {
+  .carousel-inner2 img {
+    width: 100%;
+  }
+}
 .carousel-container {
   position: relative;
   display: flex;

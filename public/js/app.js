@@ -69,23 +69,23 @@ AutoSlide()
 // ^ Carousel Events
 let galleryInner = document.querySelector('.gallery-inner')
 let galleryItems = document.querySelectorAll('.gallery-item')
-let totalItems = galleryItems.length
+let total2 = galleryItems.length
 let currentIndex = 0
 let intervalTime = 3000 
 
-function showNextSlide() {
-    currentIndex = (currentIndex + 1) % totalItems
-    updateGallery()
+function slide3() {
+    currentIndex = (currentIndex + 1) % total2
+    Gallery()
 }
 
-function updateGallery() {
+function Gallery() {
     let offset = -currentIndex * 100 
     galleryInner.style.transform = `translateX(${offset}%)`
 }
 
-setInterval(showNextSlide, intervalTime)
+setInterval(slide3, intervalTime)
 
-updateGallery()
+Gallery()
 
 
 // ~ Carousel Gallery

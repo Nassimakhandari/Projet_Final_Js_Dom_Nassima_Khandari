@@ -11990,6 +11990,10 @@ header nav .navbar button:hover {
   height: 100%;
 }
 
+.animated {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
 @media (max-width: 428px) {
   .links {
     display: none;
@@ -12013,6 +12017,14 @@ header nav .navbar button:hover {
 @font-face {
   font-family: "amatic";
   src: url(../../public/fonts/Amatic_SC/AmaticSC-Regular.ttf);
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+  }
 }
 .about {
   display: flex;
@@ -12234,6 +12246,9 @@ header nav .navbar button:hover {
   }
   .third {
     height: 100vh;
+  }
+  .about {
+    padding-left: 6vw;
   }
 }
 .image-gallery {
@@ -12529,11 +12544,11 @@ header nav .navbar button:hover {
 }
 .chefs-container .child-1 {
   background-color: #f8f8f8;
-  width: 46vw;
+  width: 48vw;
 }
 
 .chefs-child {
-  padding-left: 8vw;
+  padding-left: 6vw;
 }
 .chefs-child h4, .chefs-child .h4 {
   font-size: 15px;

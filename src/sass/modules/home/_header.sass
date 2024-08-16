@@ -115,63 +115,8 @@ header
     width: 100%
     height: 100%
 
-
-
-// .carousel-container 
-//     width: 40vw
-//     height: 60vh
-//     background: #d000ff
-//     position: relative
-//     overflow: hidden
-
-
-// .carousel 
-//     display: flex
-//     transition: transform 0.5s ease
-
-
-
-// .slide 
-//     min-width: 100%
-
-
-// .slide img 
-//     width: 100%
-//     height: 100%
-
-
-// .next , .previous 
-//     padding: 1vh 2vw
-//     border-radius: 20px
-//     position: absolute
-//     top: 50%
-//     transform: translateY(-50%)
-
-
-// .next
-//     right:0px 
-
-// .previous
-//     left:0 
-
-
-// .indicators-grp
-//     width: 100%
-//     padding: 2vh 0
-//     position: absolute
-//     bottom: 10%
-//     display: flex
-//     align-items: center
-//     justify-content: center
-//     gap: 10px
-
-// .indicator
-//     padding: 0.3vh 1vw
-//     background: rgb(0, 0, 0)
-//     border-radius: 10px
-
-// .activeIndicator
-//     background-color: aliceblue
+.animated
+    animation: up-down 1s ease-in-out infinite alternate-reverse both
 
 @media (max-width : 428px)
     .links
@@ -194,3 +139,8 @@ header
 @font-face 
     font-family: "amatic"
     src: url(../../public/fonts/Amatic_SC/AmaticSC-Regular.ttf)
+@keyframes up-down
+    0%
+        transform: translateY(0)
+    100%
+        transform: translateY(20px)

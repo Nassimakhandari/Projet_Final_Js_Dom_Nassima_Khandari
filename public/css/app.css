@@ -12529,6 +12529,11 @@ header nav .navbar button:hover {
 }
 .chefs-container .child-1 {
   background-color: #f8f8f8;
+  width: 46vw;
+}
+
+.chefs-child {
+  padding-left: 8vw;
 }
 .chefs-child h4, .chefs-child .h4 {
   font-size: 15px;
@@ -12551,6 +12556,12 @@ header nav .navbar button:hover {
   border-radius: 5px;
   color: white;
 }
+.chefs-child .input {
+  width: 12.9vw;
+}
+.chefs-child .container {
+  padding-top: 5vh;
+}
 
 @media (max-width: 428px) {
   .chefs-container {
@@ -12558,6 +12569,33 @@ header nav .navbar button:hover {
   }
   .chefs-container .card2 {
     margin-top: 9vh;
+  }
+  .chefs-container .child-1 {
+    width: 92vw;
+    padding-left: 5vw;
+    padding-top: 5vh;
+  }
+  .child-0 {
+    flex-direction: column !important;
+    width: 50vw;
+  }
+  .container img {
+    width: 390px;
+  }
+  input {
+    width: 74vw;
+  }
+  .textarea {
+    width: 74vw !important;
+  }
+  .input {
+    width: 74vw !important;
+  }
+  .chefs-child {
+    padding-left: 0;
+  }
+  .button {
+    padding-left: 20vw !important;
   }
 }
 

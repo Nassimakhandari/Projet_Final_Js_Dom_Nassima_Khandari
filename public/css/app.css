@@ -11965,38 +11965,43 @@ header nav .navbar button:hover {
   display: none;
   position: fixed;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  top: 32%;
-  width: 30%;
-  height: 40%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  background-color: white;
   color: black;
   gap: 2vh;
   z-index: 1000;
 }
 
-.modal-content {
+.content-modal {
   border-radius: 8px;
-  width: 300px;
-  text-align: center;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5vh 4vw;
 }
-
-.container-modal {
-  background-color: rgba(0, 0, 0, 0.34);
-  width: 100%;
-  height: 100%;
+.content-modal input {
+  border-radius: 5px;
+  padding: 1vh;
 }
 
 .animated {
-  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 428px) {
   .links {
-    display: none;
+    display: none !important;
+  }
+  .navbar {
+    padding-left: 0;
   }
   .home {
     flex-direction: column-reverse;

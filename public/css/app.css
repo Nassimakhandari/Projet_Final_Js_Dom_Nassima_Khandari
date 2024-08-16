@@ -12286,6 +12286,64 @@ header nav .navbar button:hover {
     width: 200px;
   }
 }
+.carousel4 {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  background-color: #f2f2f2;
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+}
+.carousel4 h4, .carousel4 .h4 {
+  color: gray;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.carousel4 h1, .carousel4 .h1 {
+  color: #2a2a31;
+  font-family: amatic;
+  text-align: center;
+  font-size: 47px;
+}
+.carousel4 h1 span, .carousel4 .h1 span {
+  color: #c32525;
+}
+.carousel4 .carousel-inner2 {
+  display: flex;
+  gap: 1vw;
+  padding-left: 70vw;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel4 .carousel-inner2 img:hover {
+  border: solid 5px red;
+}
+.carousel4 .carousel-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.carousel4 .carousel-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+.carousel4 .carousel-dots button {
+  background: #ddd;
+  border: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
 .carousel-container {
   position: relative;
   display: flex;

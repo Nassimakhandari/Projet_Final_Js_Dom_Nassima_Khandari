@@ -12001,7 +12001,7 @@ header nav .navbar button:hover {
     display: none !important;
   }
   .navbar {
-    padding-left: 0;
+    padding-left: 0 !important;
   }
   .home {
     flex-direction: column-reverse;
